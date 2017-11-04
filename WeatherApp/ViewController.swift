@@ -48,6 +48,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
+    
+    
     // Show the popup to the user if we have been deined access
     func showLocationDisabledPopUp() {
         let alertController = UIAlertController(title: "Background Location Access Disabled",
